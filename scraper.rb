@@ -2,6 +2,17 @@ require 'nokogiri'
 require 'httparty'
 require 'json'
 
+def clean_string(original_text)
+  # Remove "Categories:", commas, and the word "Pokemon"
+  cleaned_text = original_text.gsub(/Categories:|,|Pokemon/i, '')
+  
+  # Remove extra spaces
+  cleaned_text = cleaned_text.strip.squeeze(' ')
+  
+  cleaned_text
+end
+
+
 def scraper(page_number)
   url = "https://scrapeme.live/shop/page/#{page_number}"
   unparsed_page = HTTParty.get(url)
@@ -18,18 +29,24 @@ def scraper(page_number)
       name = item.css('h2').text.strip  #Extract name
       price = item.css('span.price').text.strip  #Extract price
       
-      #Second url to add quantity since it was on another page
+      # Second url to add quantity since it was on another page
       second_url = "https://scrapeme.live/shop/#{name}"
       unparsed_second_page = HTTParty.get(second_url)
       parsed_second_page = Nokogiri::HTML(unparsed_second_page)
       
       # Extract additional information from the second page
-      quantity_string = parsed_second_page.css('div.summary p.stock').text.strip  # Extractquantity as string
+      quantity_string = parsed_second_page.css('div.summary p.stock').text.strip  # Extract quantity as string
+      categories_string = parsed_second_page.css('div.summary span.posted_in').text.strip # Extract categories as string
+      weight = parsed_second_page.css('div.woocommerce-tabs td.product_weight').text.strip # Extract weight as string
+      dimensions = parsed_second_page.css('div.woocommerce-tabs td.product_dimensions').text.strip # Extract dimensions as string
 
-      #Convert to integer
+      # Convert to integer
       quantity = quantity_string.scan(/\d+/).first.to_i 
 
-      product = { name: name, price: price, quantity: quantity }  #Create a hash representing the product
+      # Remove unwanted words from categories
+      categories = clean_string(categories_string)
+
+      product = { name: name, price: price, quantity: quantity, categories: categories, weight: weight, dimensions: dimensions}  # Create a hash representing the product
       products << product  # Add product to array
     end
   end
