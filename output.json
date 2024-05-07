@@ -4,7 +4,7 @@
     "price": "£63.00",
     "quantity": 45,
     "categories": "Seed",
-    "weight": "15.2 kg",
+    "weight": "15.2",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -12,7 +12,7 @@
     "price": "£87.00",
     "quantity": 142,
     "categories": "Seed",
-    "weight": "28.7 kg",
+    "weight": "28.7",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -20,7 +20,7 @@
     "price": "£105.00",
     "quantity": 30,
     "categories": "Seed",
-    "weight": "220.5 kg",
+    "weight": "220.5",
     "dimensions": "6 x 6 x 6 cm"
   },
   {
@@ -28,7 +28,7 @@
     "price": "£48.00",
     "quantity": 206,
     "categories": "Lizard",
-    "weight": "18.7 kg",
+    "weight": "18.7",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -36,7 +36,7 @@
     "price": "£165.00",
     "quantity": 284,
     "categories": "Flame",
-    "weight": "41.9 kg",
+    "weight": "41.9",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -44,7 +44,7 @@
     "price": "£156.00",
     "quantity": 31,
     "categories": "Flame",
-    "weight": "199.5 kg",
+    "weight": "199.5",
     "dimensions": "5 x 5 x 5 cm"
   },
   {
@@ -52,7 +52,7 @@
     "price": "£130.00",
     "quantity": 178,
     "categories": "Tiny Turtle",
-    "weight": "19.8 kg",
+    "weight": "19.8",
     "dimensions": "1 x 1 x 1 cm"
   },
   {
@@ -60,7 +60,7 @@
     "price": "£123.00",
     "quantity": 24,
     "categories": "Turtle",
-    "weight": "49.6 kg",
+    "weight": "49.6",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -68,7 +68,7 @@
     "price": "£76.00",
     "quantity": 88,
     "categories": "Shellfish",
-    "weight": "188.5 kg",
+    "weight": "188.5",
     "dimensions": "5 x 5 x 5 cm"
   },
   {
@@ -76,7 +76,7 @@
     "price": "£73.00",
     "quantity": 40,
     "categories": "Worm",
-    "weight": "6.4 kg",
+    "weight": "6.4",
     "dimensions": "1 x 1 x 1 cm"
   },
   {
@@ -84,7 +84,7 @@
     "price": "£148.00",
     "quantity": 285,
     "categories": "Cocoon",
-    "weight": "21.8 kg",
+    "weight": "21.8",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -92,7 +92,7 @@
     "price": "£162.00",
     "quantity": 242,
     "categories": "Butterfly",
-    "weight": "70.5 kg",
+    "weight": "70.5",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -100,7 +100,7 @@
     "price": "£25.00",
     "quantity": 65,
     "categories": "Hairy Bug",
-    "weight": "7.1 kg",
+    "weight": "7.1",
     "dimensions": "1 x 1 x 1 cm"
   },
   {
@@ -108,7 +108,7 @@
     "price": "£148.00",
     "quantity": 260,
     "categories": "Cocoon",
-    "weight": "22 kg",
+    "weight": "22",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -116,7 +116,7 @@
     "price": "£168.00",
     "quantity": 125,
     "categories": "Poison Bee",
-    "weight": "65 kg",
+    "weight": "65",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -124,7 +124,7 @@
     "price": "£159.00",
     "quantity": 175,
     "categories": "Tiny Bird",
-    "weight": "4 kg",
+    "weight": "4",
     "dimensions": "1 x 1 x 1 cm"
   },
   {
@@ -132,7 +132,7 @@
     "price": "£84.00",
     "quantity": 120,
     "categories": "Bird",
-    "weight": "66.1 kg",
+    "weight": "66.1",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -140,7 +140,7 @@
     "price": "£185.00",
     "quantity": 90,
     "categories": "Bird",
-    "weight": "87.1 kg",
+    "weight": "87.1",
     "dimensions": "4 x 4 x 4 cm"
   },
   {
@@ -148,7 +148,7 @@
     "price": "£128.00",
     "quantity": 16,
     "categories": "Mouse",
-    "weight": "7.7 kg",
+    "weight": "7.7",
     "dimensions": "1 x 1 x 1 cm"
   },
   {
@@ -156,7 +156,7 @@
     "price": "£60.00",
     "quantity": 204,
     "categories": "Mouse",
-    "weight": "40.8 kg",
+    "weight": "40.8",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -164,7 +164,7 @@
     "price": "£133.00",
     "quantity": 46,
     "categories": "Tiny Bird",
-    "weight": "4.4 kg",
+    "weight": "4.4",
     "dimensions": "1 x 1 x 1 cm"
   },
   {
@@ -172,7 +172,7 @@
     "price": "£95.00",
     "quantity": 276,
     "categories": "Beak",
-    "weight": "83.8 kg",
+    "weight": "83.8",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -180,7 +180,7 @@
     "price": "£55.00",
     "quantity": 120,
     "categories": "Snake",
-    "weight": "15.2 kg",
+    "weight": "15.2",
     "dimensions": "6 x 6 x 6 cm"
   },
   {
@@ -188,7 +188,7 @@
     "price": "£182.00",
     "quantity": 248,
     "categories": "Cobra",
-    "weight": "143.3 kg",
+    "weight": "143.3",
     "dimensions": "11 x 11 x 11 cm"
   },
   {
@@ -196,7 +196,7 @@
     "price": "£37.00",
     "quantity": 254,
     "categories": "Mouse",
-    "weight": "13.2 kg",
+    "weight": "13.2",
     "dimensions": "1 x 1 x 1 cm"
   },
   {
@@ -204,7 +204,7 @@
     "price": "£140.00",
     "quantity": 215,
     "categories": "Mouse",
-    "weight": "66.1 kg",
+    "weight": "66.1",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -212,7 +212,7 @@
     "price": "£82.00",
     "quantity": 100,
     "categories": "Mouse",
-    "weight": "26.5 kg",
+    "weight": "26.5",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -220,7 +220,7 @@
     "price": "£155.00",
     "quantity": 236,
     "categories": "Mouse",
-    "weight": "65 kg",
+    "weight": "65",
     "dimensions": "3 x 3 x 3 cm"
   },
   {
@@ -228,7 +228,7 @@
     "price": "£28.00",
     "quantity": 58,
     "categories": "Poison Pin",
-    "weight": "44.1 kg",
+    "weight": "44.1",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -236,7 +236,7 @@
     "price": "£106.00",
     "quantity": 153,
     "categories": "Drill",
-    "weight": "132.3 kg",
+    "weight": "132.3",
     "dimensions": "4 x 4 x 4 cm"
   },
   {
@@ -244,7 +244,7 @@
     "price": "£179.00",
     "quantity": 279,
     "categories": "Poison Pin",
-    "weight": "43 kg",
+    "weight": "43",
     "dimensions": "2 x 2 x 2 cm"
   },
   {
@@ -252,7 +252,7 @@
     "price": "£31.00",
     "quantity": 178,
     "categories": "Drill",
-    "weight": "136.7 kg",
+    "weight": "136.7",
     "dimensions": "4 x 4 x 4 cm"
   }
 ]
